@@ -1,4 +1,3 @@
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(array)
   array.collect do |name|
   name.split(" ").first
