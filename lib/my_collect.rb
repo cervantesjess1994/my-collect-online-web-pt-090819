@@ -1,6 +1,6 @@
 def my_collect(array)
   array.collect do |name|
-  name.split(" ").first
+  puts name.split(" ").first
 end
 
 def collect(array)
@@ -14,5 +14,5 @@ end
 
 def my_collect(collection)
   collection.collect do |lang|
-  lang.upcase
+  puts lang.upcase
 end
