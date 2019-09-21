@@ -18,4 +18,3 @@ my_collect(collection) do |lang|
 end
 
 def collection(array)
-  
